@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  timeback:
+    container_name: timeshift
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+      args:
+        NODE_ENV: production
+    image: bakaso/timeshift
+    tmpfs:
+      - /run
+      - /tmp

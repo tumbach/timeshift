@@ -1,0 +1,16 @@
+{
+  "name": "timeshift",
+  "version": "0.0.1",
+  "description": "Stream an Icecast radio source with different delays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rngnrs <sup@tumba.ch>",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "dependencies": {
+    "nodeshout": "^2.0.0",
+    "request": "^2.88.2"
+  }
+}
