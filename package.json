@@ -10,7 +10,7 @@
   "license": "GPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "nodeshout": "^2.0.0",
-    "request": "^2.88.2"
+    "got": "^12.5.3",
+    "nodeshout": "^2.0.0"
   }
 }

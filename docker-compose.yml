@@ -13,3 +13,11 @@ services:
     tmpfs:
       - /run
       - /tmp
+    environment:
+      - URL=${URL}
+      - DELAY_HOURS=${DELAY_HOURS}
+      - HOST=${HOST}
+      - PORT=${PORT}
+      - PASSWORD=${PASSWORD}
+      - FORMAT=${FORMAT}
+      - MOUNTS=${MOUNTS}
